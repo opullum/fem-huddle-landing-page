@@ -16,7 +16,11 @@
   --gray-100: #e1e8ee;
   --blue-950: #00252e;
   --pink-400: #ff52c1;
-  --purple-700: #423a3a;
+  --purple-700: rgb(
+    104,
+    75,
+    177
+  ); /* The hex code in the Figma file is wrong?? */
   --magenta-400: #e880e8;
 
   /* Spacing variables */
@@ -27,4 +31,57 @@
   --spacing-500: 40px;
   --spacing-700: 56px;
   --spacing-800: 64px;
+}
+
+body {
+  /* The 'effects' are an image layered over the background color */
+  background-image: url("/assets/images/bg-mobile.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: var(--purple-700);
+
+  padding: var(--spacing-500);
+}
+
+header {
+  margin-bottom: 64px;
+  .company-logo {
+    max-width: 120px;
+  }
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+
+  text-align: center;
+  color: var(--white);
+
+  width: 100%;
+
+  .illustration-container {
+    width: fit-content;
+
+    .illustration-img {
+      max-width: 304px;
+    }
+  }
+
+  .hero-content {
+    /* Placeholder */
+  }
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  .icon-container {
+    display: flex;
+    flex-direcion: row;
+    gap: 16px;
+  }
 }
