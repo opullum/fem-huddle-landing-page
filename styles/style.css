@@ -1,0 +1,30 @@
+/* Primary project design file */
+
+@import url("/styles/presets.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Color presets provided from Figma design file */
+  --white: #ffffff;
+  --black: #000000;
+  --gray-400: #f96464;
+  --gray-100: #e1e8ee;
+  --blue-950: #00252e;
+  --pink-400: #ff52c1;
+  --purple-700: #423a3a;
+  --magenta-400: #e880e8;
+
+  /* Spacing variables */
+  --spacing-0: 0px;
+  --spacing-100: 8px;
+  --spacing-200: 16px;
+  --spacing-300: 24px;
+  --spacing-500: 40px;
+  --spacing-700: 56px;
+  --spacing-800: 64px;
+}
