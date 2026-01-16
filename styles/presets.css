@@ -1,0 +1,45 @@
+/* Text presets and spacing information */
+
+@import url("/styles/fonts.css");
+
+.text-preset-1 {
+  font-family: "Poppins", "Arial", sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 125%;
+}
+
+.text-preset-2 {
+  font-family: "Poppins", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 125%;
+}
+
+.text-preset-3 {
+  font-family: "Poppins", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 150%;
+}
+
+.text-preset-4 {
+  font-family: "OpenSans-Variable", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 150%;
+}
+
+.text-preset-5 {
+  font-family: "OpenSans-Variable", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 150%;
+}
+
+.text-preset-6 {
+  font-family: "Poppins", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 150%;
+}
