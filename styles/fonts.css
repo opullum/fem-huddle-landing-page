@@ -1,0 +1,19 @@
+/* Importing required font faces shown on the Figma design file */
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("/assets/fonts/OpenSans-VariableFont.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/assets/fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/assets/fonts/Poppins-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
