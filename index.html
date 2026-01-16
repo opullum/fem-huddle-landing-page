@@ -3,36 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
     <link rel="stylesheet" href="styles/style.css" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
     <title>
       Frontend Mentor | Huddle landing page with single introductory section
     </title>
   </head>
   <body>
     <main>
-      <div class="illustration-container">
-        <img
-          class="illustration-img"
-          src="assets/images/illustration-mockups.svg"
-          alt="A vector-based illustration mockup of a Huddle community"
-        />
-      </div>
+      <img
+        class="company-logo"
+        src="assets/images/logo.svg"
+        alt="The Huddle company logo in white"
+      />
 
-      <div class="hero-content">
-        <h1 class="text-preset-1">Build The Community Your Fans Will Love</h1>
-        <p class="text-preset-4">
-          Huddle re-imagines the way we build communities. You have a voice, but
-          so does your audience. Create connections with your users as you
-          engage in genuine discussion.
-        </p>
-        <button>Register</button>
+      <!-- Organization into a separate div is necessary to easier desktop layout arrangement -->
+      <div class="hero-container">
+        <div class="illustration-container">
+          <img
+            class="illustration-img"
+            src="assets/images/illustration-mockups.svg"
+            alt="A vector-based illustration mockup of a Huddle community"
+          />
+        </div>
+
+        <div class="hero-content">
+          <h1 class="text-preset-1">Build The Community Your Fans Will Love</h1>
+          <p class="text-preset-4">
+            Huddle re-imagines the way we build communities. You have a voice,
+            but so does your audience. Create connections with your users as you
+            engage in genuine discussion.
+          </p>
+          <button>Register</button>
+        </div>
       </div>
     </main>
 
