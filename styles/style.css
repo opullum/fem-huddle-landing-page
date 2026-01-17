@@ -41,6 +41,20 @@ button {
 
   color: var(--purple-700);
   filter: drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.269));
+
+  transition: all 0.1s linear;
+}
+
+button:hover {
+  cursor: pointer;
+
+  color: var(--white);
+  background-color: var(--magenta-400);
+}
+
+ion-icon {
+  color: white;
+  font-size: 24px;
 }
 
 body {
@@ -109,5 +123,13 @@ footer {
     display: flex;
     flex-direction: row;
     gap: 16px;
+
+    .icon {
+      transition: all 0.1s linear;
+    }
+
+    .icon:hover {
+      color: var(--pink-400);
+    }
   }
 }
