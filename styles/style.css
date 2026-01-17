@@ -33,15 +33,28 @@
   --spacing-800: 64px;
 }
 
+button {
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+
+  color: var(--purple-700);
+  filter: drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.269));
+}
+
 body {
   /* The 'effects' are an image layered over the background color */
   background-image: url("/assets/images/bg-mobile.svg");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-color: var(--purple-700);
 
   padding: var(--spacing-500);
 }
+
+/* Styling rules for components based on Mobile-first approach. Media queries
+will be used to redesign by screen size (component-based approach). */
 
 header {
   margin-bottom: 64px;
@@ -69,8 +82,19 @@ main {
     }
   }
 
-  .hero-content {
-    /* Placeholder */
+  .hero-container {
+    /* Containing the text content (div) and cta button */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+
+    .hero-content {
+      /* Containing the text content (Hero + Description) */
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
   }
 }
 
@@ -79,9 +103,11 @@ footer {
   flex-direction: row;
   justify-content: center;
 
+  margin-top: var(--spacing-500);
+
   .icon-container {
     display: flex;
-    flex-direcion: row;
+    flex-direction: row;
     gap: 16px;
   }
 }
