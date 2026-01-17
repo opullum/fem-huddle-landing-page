@@ -172,3 +172,46 @@ footer {
     }
   }
 }
+
+@media (min-width: 1080px) {
+  body {
+    padding: var(--spacing-300) var(--spacing-800);
+    background-image: url("/assets/images/bg-desktop.svg");
+  }
+
+  header {
+    margin-bottom: 104px;
+    .company-logo {
+      max-width: 200px;
+    }
+  }
+
+  main {
+    flex-direction: row;
+    .illustration-container .illustration-img {
+      max-width: clamp(31rem, -6.5rem + 55.556vw, 43.5rem);
+    }
+
+    .hero-container {
+      justify-content: start;
+      align-items: start;
+      padding-left: var(--spacing-300);
+
+      .hero-content {
+        text-align: left;
+        padding: 0;
+        padding-right: var(--spacing-800);
+        gap: 24px;
+      }
+
+      .hero-content .hero-header {
+        padding: 0;
+      }
+    }
+  }
+
+  footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
