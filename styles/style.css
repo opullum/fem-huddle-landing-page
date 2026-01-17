@@ -175,12 +175,12 @@ footer {
 
 @media (min-width: 1080px) {
   body {
-    padding: var(--spacing-300) var(--spacing-800);
+    padding: var(--spacing-500) var(--spacing-800);
     background-image: url("/assets/images/bg-desktop.svg");
   }
 
   header {
-    margin-bottom: 104px;
+    margin-bottom: var(--spacing-800);
     .company-logo {
       max-width: 200px;
     }
