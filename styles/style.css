@@ -133,3 +133,26 @@ footer {
     }
   }
 }
+
+@media (min-width: 768px) {
+  ion-icon {
+    font-size: 40px;
+  }
+
+  button {
+    height: 58px;
+    border-radius: 28px;
+  }
+
+  body {
+    padding: var(--spacing-700);
+  }
+
+  main .illustration-container {
+    width: fit-content;
+
+    .illustration-img {
+      max-width: 608px;
+    }
+  }
+}
